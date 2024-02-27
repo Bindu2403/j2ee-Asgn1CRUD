@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+	padding-bottom: 58.67px;
+    min-height:100vh; 
+
+}
+
+.sign_up_form{
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    background: beige;
+    padding: 20px;
+    margin: 8% auto 0 ;
+    text-align: center;
+}
+
+.form_group{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.input_box{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid black;
+}
+
+label{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+button{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="file"]{
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    width: 100%;    
+}
+
+.small_text{
+    margin-left: 15px;
+    padding-top: 5px;
+    color: red;
+    font-weight: 600;
+}
+
+.submit_btn{
+    background-color: skyblue;
+}
